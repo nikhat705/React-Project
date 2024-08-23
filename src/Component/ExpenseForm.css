@@ -1,0 +1,12 @@
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+   
+.Form_controls{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: large;
+}

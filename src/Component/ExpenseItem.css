@@ -1,0 +1,12 @@
+.expensesItem{
+    display: flex;
+   
+    
+}
+button{
+    background-color: rgb(56, 56, 224);
+    color: beige;
+}
+.border{
+    border: 1px solid black;
+}

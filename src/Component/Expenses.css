@@ -1,0 +1,8 @@
+.expenses{
+    display: flex;
+    background-color: aqua;
+    border: 2px solid black;
+    justify-content: space-around;
+    font-size: larger;
+  
+}
