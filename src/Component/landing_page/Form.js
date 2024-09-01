@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 // // import UserForm from "../UserForm";
-import PostInfo from "../PostInfo";
-import Project from "../Project";
+import PostInfo from "../PostInfo"
+import Project from "../ApiMethod/Project"
 import Comment from "../Comment";
 import Todos from "../Todos";
-import Album from "../Album";
+import Album from "../Todos";
 
 export default function Form() {
 //   const [users, setUsers] = useState([]);

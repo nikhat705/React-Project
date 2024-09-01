@@ -1,5 +1,5 @@
-import Hero from "./Hero";
-import Team from "./Team";
+import Hero from "./about/Hero";
+import Team from "./about/Team";
 // import App from "../../../src/App";
 
  function  AboutPage(){

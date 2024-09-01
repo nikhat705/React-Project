@@ -17,8 +17,9 @@ export default function Navbar() {
       
       <form className="d-flex" >
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <Link class="nav-link active" area-current="page" to="/register">Register</Link>
       <Link class="nav-link active" area-current="page" to="/UserInfo">userInfo</Link>
-          <Link class="nav-link active" area-current="page" to="/Signup">Signup</Link>
+          <Link class="nav-link active" area-current="page" to="/logIn">LogIn</Link>
         <li class="nav-item">
           <Link class="nav-link active" area-current="page" to="/about">about</Link>
         </li>

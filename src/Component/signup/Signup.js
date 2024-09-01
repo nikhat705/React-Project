@@ -1,5 +1,4 @@
-import Comment from "../../Comment";
-
+import Comment from "../../Component/Comment";
  function Signup(){
     return(
         <div>

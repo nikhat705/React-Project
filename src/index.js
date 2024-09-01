@@ -2,20 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './index.css';
-import Navbar from "./landing_page/home/Navbar";
-import HomePage from "./landing_page/home/HomePage";
-import Signup from "./landing_page/signup/Signup";
-import AboutPage from "./landing_page/about/AboutPage";
-import ProductPage from "./landing_page/products/ProductPage";
-import PricingPage from "./landing_page/pricing/PricingPage";
-import SupportPage from "./landing_page/support/SupportPage";
-import Footer from "./landing_page/Footer";
-import NotFound from './landing_page/NotFound';
+import Navbar from "./Component/landing_page/home/Navbar";
+import HomePage from "./Component/landing_page/home/HomePage";
+import AboutPage from "./Component/landing_page/AboutPage";
+import ProductPage from "./Component/landing_page/products/ProductPage";
+import PricingPage from "./Component/landing_page/pricing/PricingPage";
+import SupportPage from "./Component/landing_page/support/SupportPage";
+import Footer from "./Component/Footer";
+import NotFound from './Component/NotFound';
 import App from './App';
-import Form from './landing_page/Form';
-import AddUser from "./landing_page/AddUser";
-import EditUser from './EditUser';
-import UserInfo from './landing_page/UserInfo';
+import Form from './Component/landing_page/Form';
+import AddUser from "./Component/AddUser";
+import EditUser from "./Component/EditUser"
+import UserInfo from './Component/UserInfo';
+import Register from './Component/Register';
+import LogIn from './Component/LogIn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,10 +25,11 @@ root.render(
   <Navbar/>
 <Routes>
 <Route path="/" element={<HomePage/>}/>
+<Route path="/register" element={<Register/>}/>
 <Route path="/EditUser" element={<EditUser/>}/>
 <Route path="/Form" element={<Form/>}/>
 <Route path="/UserInfo" element={<UserInfo/>}/>
-<Route path="/Signup" element={<Signup/>} />
+<Route path="/logIn" element={<LogIn/>} />
 <Route path="/expense" element={<App/>} />
 <Route path="/about" element={<AboutPage/>} />
 <Route path="/Products" element={<ProductPage/>} />
